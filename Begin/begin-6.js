@@ -1,9 +1,9 @@
-let a = 5;
-let b = 4;
-let c = 3;
+const PromptSync = require("prompt-sync")();
 
-let V = a * b * c;
-let S = 2 * (a * b + b * c + a * c);
+let a = Number(PromptSync("Введите значение длины ребра: "));
+let b = Number(PromptSync("Введите значение длины ребра: "));
+let c = Number(PromptSync("Введите значение длины ребра: "));
 
-console.log("Объем V =", V);
-console.log("Площадь поверхности S =", S);
+console.log(a * b * c);
+
+console.log(2 * (a * b + b * c + a * c));
