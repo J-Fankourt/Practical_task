@@ -11,3 +11,5 @@ console.log(value_c);
 console.log("Рассчитаем периметр");
 
 console.log(value_a + value_b + value_c); 
+
+
